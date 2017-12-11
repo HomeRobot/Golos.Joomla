@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+    <name>com_greg</name>
+    <creationDate>2017-02-18</creationDate>
+    <copyright>2017 Joopiter.ru</copyright>
+    <license>GNU General Public License версии 2 или более поздней; Смотрите LICENSE.txt</license>
+    <author>Joopiter.ru</author>
+    <authorEmail>support@joopiter.ru</authorEmail>
+    <authorUrl>http://joopiter.ru</authorUrl>
+    <version>CVS: 1.0.0</version>
+    <description>Этот компонент помогает регистрировать на сайте пользователей из блокчейна GOLOS</description>
+    
+    <files folder="site">
+        <filename>index.html</filename>
+        <filename>greg.php</filename>
+        <filename>controller.php</filename>
+        <filename>router.php</filename>
+        <folder>views</folder>
+        <folder>models</folder>
+        <folder>controllers</folder>
+        <folder>helpers</folder>
+    </files>
+    <media destination="com_greg" folder="media">
+        <folder>js</folder>
+        <folder>css</folder>
+    </media>
+    <languages folder="languages/site">        
+			<language tag="en-GB">en-GB/en-GB.com_greg.ini</language>
+			<language tag="ru-RU">ru-RU/ru-RU.com_greg.ini</language>
+    </languages>
+    <administration>
+        
+        <submenu>
+            
+        </submenu>
+        <files folder="administrator">
+            <filename>index.html</filename>
+        </files>
+        <languages folder="languages/administrator">            
+			<language tag="en-GB">en-GB/en-GB.com_greg.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_greg.sys.ini</language>
+			<language tag="ru-RU">ru-RU/ru-RU.com_greg.ini</language>
+			<language tag="ru-RU">ru-RU/ru-RU.com_greg.sys.ini</language>
+        </languages>
+    </administration>
+    <config>
+        <fields name="params">
+            <fieldset name="component">
+                <field name="save_history" default="0" />
+            </fieldset>
+        </fields>
+    </config>
+    <plugins>
+        <plugin group="search" plugin="greg"/>
+    </plugins>
+    
+</extension>

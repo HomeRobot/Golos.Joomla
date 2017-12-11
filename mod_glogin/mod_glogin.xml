@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" method="upgrade">
+	<name>GOLOS Login</name>
+	<creationDate>2017</creationDate>
+	<author>JoomlaPlus.ru</author>
+	<authorEmail>support@joomlaplus.ru</authorEmail>
+	<authorUrl>http://www.joomlaplus.ru</authorUrl>
+	<copyright>JoomlaPlus.ru</copyright>
+	<license>GPL v.2</license>
+	<version>1.0.0</version>
+	<description>Логин в блокчейн GOLOS</description>
+	<files>
+		<filename module="mod_glogin">mod_glogin.php</filename>
+		<filename>mod_glogin.xml</filename>
+		<folder>tmpl</folder>
+	</files>
+	<config>
+    </config>
+</extension>

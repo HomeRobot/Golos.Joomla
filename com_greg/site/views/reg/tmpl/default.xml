@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_GREG">
+		<message>
+			<![CDATA[COM_GREG]]>
+		</message>
+	</layout>
+	<state>
+		<name>COM_GREG</name>
+		<description>COM_GREG</description>
+	</state>
+</metadata>
